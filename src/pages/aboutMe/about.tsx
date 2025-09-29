@@ -21,7 +21,7 @@ export default function AboutMe({
   onDownloadCV,
 }: AboutMeProps) {
   return (
-    <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
+    <section className="mx-auto max-w-4xl py-12">
       {/* Título sección */}
       <SectionHeader title="Sobre mi" accentColor="#c4a885" align="left" />
 

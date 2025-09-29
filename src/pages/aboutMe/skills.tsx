@@ -20,7 +20,7 @@ export default function SkillsSection({
 }: SkillsSectionProps) {
   return (
     <div className="bg-[#fdfcf5]">
-      <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
+      <section className="mx-auto max-w-4xl py-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div className="flex flex-col gap-4">
             <h3 className="text-2xl font-semibold leading-snug">

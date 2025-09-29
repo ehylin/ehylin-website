@@ -24,7 +24,7 @@ export default function ResumeSection({
   highlightColor = "#c4a885",
 }: ResumeSectionProps) {
   return (
-    <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
+    <section className="mx-auto max-w-4xl py-12">
       <SectionHeader title="Resume" accentColor={highlightColor} align="left" />
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">

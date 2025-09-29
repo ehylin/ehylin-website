@@ -27,7 +27,7 @@ const images = [
 const ContentLayout = () => {
   return (
     <div className="w-full bg-[#fdfcf5] py-10 px-4">
-      <div className="max-w-7xl mx-auto grid grid-cols-2 h-[400px] md:grid-cols-4 md:grid-rows-2 gap-3 md:h-[600px]">
+      <div className="max-w-4xl mx-auto grid grid-cols-2 h-[400px] md:grid-cols-4 md:grid-rows-2 gap-3 md:h-[600px]">
         {images.map((item, idx) => (
           <div
             key={idx}
