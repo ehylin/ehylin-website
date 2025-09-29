@@ -39,7 +39,7 @@ export default function AboutMe({
         {/* Columna contenido */}
         <div className="flex flex-col gap-6">
           <div>
-            <h3 className="text-2xl font-semibold mb-1">{headline}</h3>
+            <h3 className="text-xl font-semibold mb-1">{headline}</h3>
             <p className="text-base font-medium">{role}</p>
           </div>
 

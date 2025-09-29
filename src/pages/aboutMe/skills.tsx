@@ -23,7 +23,7 @@ export default function SkillsSection({
       <section className="mx-auto max-w-4xl py-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div className="flex flex-col gap-4">
-            <h3 className="text-2xl font-semibold leading-snug">
+            <h3 className="text-xl font-semibold leading-snug">
               {introHeading}
             </h3>
             <p className="text-base leading-relaxed">{introText}</p>

@@ -24,7 +24,7 @@ export default function SectionHeader({
 
   return (
     <header className={`mb-10 ${alignClass} ${className}`}>
-      <h2 className="text-3xl font-semibold tracking-tight inline-block relative">
+      <h2 className="text-2xl font-semibold tracking-tight inline-block relative">
         {uppercase ? title.toUpperCase() : title}
         <span
           aria-hidden
