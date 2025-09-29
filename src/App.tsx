@@ -21,9 +21,9 @@ function App() {
           info={[
             { label: "Cumpleaños", value: "Julio 11, 1990" },
             { label: "Teléfono", value: "+34 604-80-89-28" },
-            { label: "Correo", value: "ehylindesarrollo@gmail.com" },
-            { label: "From", value: "Venezolana" },
-            { label: "Language", value: "Expañol, Inglés" },
+            { label: "Correo", value: "ehylinolezjua@gmail.com" },
+            { label: "Desde", value: "Venezuela" },
+            { label: "Lenguaje", value: "Expañol, Inglés" },
           ]}
         />
         <SkillsSection
@@ -41,48 +41,48 @@ function App() {
           highlightColor="#c4a885"
           education={[
             {
-              title: "Master of Computer Science",
-              period: "2015 - 2016",
-              org: "University of XYZ",
+              title: "Desarrollador FrontEnd",
+              period: "2018 - 2021",
+              org: "Desafío Latam",
               description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed.",
+                "Curso en React, Desarrollo FrontEnd con Vue, Control de versiones Git.",
             },
             {
-              title: "Bachelor of Computer Science",
-              period: "2010 - 2014",
-              org: "University of ABC",
+              title: "Diseño Profesional de Páginas Web",
+              period: "2016 - 2017",
+              org: "Academia CadiF1",
               description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed.",
+                "Maquetaciónw web con HTML, programación con JS, Desarrollo en Wordpress",
             },
             {
-              title: "Diploma in Computer Science",
+              title: "Licenciada en Administración",
               period: "2006 - 2010",
               org: "XYZ Institution",
               description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed.",
+                "Licenciatura en administración mención gerencia, administración y gestión de empresas.",
             },
           ]}
           experience={[
             {
-              title: "Senior UX/UI Designer",
-              period: "Jan 2020 - Present",
-              org: "Bergnaum, Hills and Howe",
+              title: "FrontEnd Engineer",
+              period: "Apr 2022 - Present",
+              org: "Gosocket",
               description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed.",
+                "Desarrollador FrontEnd en React, metodología ágil, control de versiones Git.",
             },
             {
-              title: "Product Designer",
-              period: "Jan 2016 - Dec 2019",
-              org: "Langosh, Sipes and Raynor",
+              title: "FrontEnd Engineer en Walmart",
+              period: "Dec 2019 - Oct 2021",
+              org: "Acid Labs Chile",
               description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed.",
+                "Desarrollador Front-End, realización de plataformas web con React, integración Api Rest, JavaScript, metodología ágil, control de versiones Git",
             },
             {
-              title: "UI/UX Designer",
-              period: "Jan 2014 - Dec 2015",
-              org: "Strosin, Maggio and Homenick",
+              title: "FrontEnd Developer",
+              period: "Jun 2019 - Dec 2019",
+              org: "Altia",
               description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed.",
+                "Desarrollador Front End en Vue.js, Vuetify, versiones en Dédalo, Visual Studio Code, integración Api Rest.",
             },
           ]}
         />

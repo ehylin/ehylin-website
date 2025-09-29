@@ -12,22 +12,16 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto flex flex-col items-center gap-6 text-sm">
         <nav className="flex flex-wrap justify-center gap-6">
           <a href="#" className="hover:text-white transition">
-            About
+            Sobre mi
+          </a>
+          <a href="#" className="hover:text-white transition">
+            Resume
           </a>
           <a href="#" className="hover:text-white transition">
             Blog
           </a>
           <a href="#" className="hover:text-white transition">
-            Jobs
-          </a>
-          <a href="#" className="hover:text-white transition">
-            Press
-          </a>
-          <a href="#" className="hover:text-white transition">
-            Accessibility
-          </a>
-          <a href="#" className="hover:text-white transition">
-            Partners
+            Contacto
           </a>
         </nav>
 

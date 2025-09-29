@@ -47,7 +47,7 @@ export default function ResumeSection({
                   className="absolute -ml-[11px] mt-2 size-2.5 rounded-full"
                   style={{ backgroundColor: highlightColor }}
                 />
-                <div className="space-y-1">
+                <div className="space-y-1 ml-1">
                   <h4
                     className="text-lg font-semibold"
                     style={{ color: highlightColor }}
@@ -87,7 +87,7 @@ export default function ResumeSection({
                   className="absolute -ml-[11px] mt-2 size-2.5 rounded-full"
                   style={{ backgroundColor: highlightColor }}
                 />
-                <div className="space-y-1">
+                <div className="space-y-1 ml-1">
                   <h4
                     className="text-lg font-semibold"
                     style={{ color: highlightColor }}
