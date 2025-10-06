@@ -1,27 +1,21 @@
+import img1 from "@/assets/images/5.jpeg";
+import img2 from "@/assets/images/2.jpeg";
+import img3 from "@/assets/images/3.jpeg";
+import img4 from "@/assets/images/4.jpeg";
+import img5 from "@/assets/images/6.png";
+
 const images = [
   {
     title: "Stay Calm and Start Blogging",
-    src: "/src/assets/images/5.jpeg",
+    src: img1,
     colSpan: "col-span-2",
     rowSpan: "row-span-2",
-    textSize: "text4xl",
+    textSize: "text-4xl",
   },
-  {
-    title: "Stuff",
-    src: "/src/assets/images/2.jpeg",
-  },
-  {
-    title: "Food",
-    src: "/src/assets/images/3.jpeg",
-  },
-  {
-    title: "Travel",
-    src: "/src/assets/images/4.jpeg",
-  },
-  {
-    title: "Instagram",
-    src: "/src/assets/images/6.png",
-  },
+  { title: "Stuff", src: img2 },
+  { title: "Food", src: img3 },
+  { title: "Travel", src: img4 },
+  { title: "Instagram", src: img5 },
 ];
 
 const ContentLayout = () => {
