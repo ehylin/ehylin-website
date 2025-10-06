@@ -20,23 +20,21 @@ function classNames(
 ): string {
   return classes.filter(Boolean).join(" ");
 }
+const logo = "/src/assets/images/Ehylinolezjua.png";
 
+//const imgHelp = '/src/assets/logos/Circle_Help.svg'
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
     <div className="min-h-full">
       <div className="bg-gray-800">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
             {/* logo + menú desktop */}
             <div className="flex items-center">
               <div className="shrink-0">
-                <img
-                  alt="Logo"
-                  src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
-                  className="size-8"
-                />
+                <img alt="Logo" src={logo} className="size-8" />
               </div>
 
               {/* Menú desktop */}

@@ -1,26 +1,26 @@
 const images = [
   {
     title: "Stay Calm and Start Blogging",
-    src: "https://source.unsplash.com/800x800/?beach,woman",
+    src: "/src/assets/images/5.jpeg",
     colSpan: "col-span-2",
     rowSpan: "row-span-2",
     textSize: "text4xl",
   },
   {
     title: "Stuff",
-    src: "https://source.unsplash.com/400x400/?plants,decor",
+    src: "/src/assets/images/2.jpeg",
   },
   {
     title: "Food",
-    src: "https://source.unsplash.com/400x400/?muffin,food",
+    src: "/src/assets/images/3.jpeg",
   },
   {
     title: "Travel",
-    src: "https://source.unsplash.com/400x400/?car,vintage",
+    src: "/src/assets/images/4.jpeg",
   },
   {
     title: "Instagram",
-    src: "https://source.unsplash.com/400x400/?camera,photography",
+    src: "/src/assets/images/6.png",
   },
 ];
 

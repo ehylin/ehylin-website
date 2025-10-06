@@ -14,7 +14,7 @@ function App() {
       <main className="flex-grow">
         <ContentLaoyout />
         <AboutMe
-          imageUrl="https://images.unsplash.com/photo"
+          imageUrl="/src/assets/images/foto-ehylin1.jpeg"
           headline="Hola Soy, Ehylin Olezjua"
           role="FrontEnd"
           description="Soy diseñador web, con enfoque en programacion con un fuerte enfoque en JS. Creo obras que atraen, inspiran e impulsan la acción."
