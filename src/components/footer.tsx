@@ -11,16 +11,16 @@ const Footer = () => {
     <footer className="bg-[#0F172A] text-gray-400 px-6 py-10">
       <div className="max-w-7xl mx-auto flex flex-col items-center gap-6 text-sm">
         <nav className="flex flex-wrap justify-center gap-6">
-          <a href="#" className="hover:text-white transition">
+          <a href="#about" className="hover:text-white transition">
             Sobre mi
           </a>
-          <a href="#" className="hover:text-white transition">
+          <a href="#resume" className="hover:text-white transition">
             Resume
           </a>
-          <a href="#" className="hover:text-white transition">
+          <a href="#blog" className="hover:text-white transition">
             Blog
           </a>
-          <a href="#" className="hover:text-white transition">
+          <a href="#contact" className="hover:text-white transition">
             Contacto
           </a>
         </nav>

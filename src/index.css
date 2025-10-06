@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  /* h-16 = 4rem = 64px; ajusta si tu header es sticky/fixed */
+  scroll-padding-top: 64px;
+}

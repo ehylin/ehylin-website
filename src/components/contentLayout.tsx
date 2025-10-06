@@ -20,34 +20,36 @@ const images = [
 
 const ContentLayout = () => {
   return (
-    <div className="w-full bg-[#fdfcf5] py-10 px-4">
-      <div className="max-w-4xl mx-auto grid grid-cols-2 h-[400px] md:grid-cols-4 md:grid-rows-2 gap-3">
-        {images.map((item, idx) => (
-          <div
-            key={idx}
-            className={`relative overflow-hidden ${item.colSpan || ""} ${
-              item.rowSpan || ""
-            }`}
-          >
-            <img
-              src={item.src}
-              alt={item.title}
-              className="w-full h-full object-cover"
-            />
-            <div className="absolute inset-0 flex items-center justify-center bg-black/20">
-              <h2
-                className={`text-white text-center ${
-                  item.textSize || "text-xl"
-                } font-light tracking-widest`}
-                style={{ fontFamily: "cursive" }}
-              >
-                {item.title}
-              </h2>
+    <section id="home">
+      <div className="w-full bg-[#fdfcf5] py-10 px-4">
+        <div className="max-w-4xl mx-auto grid grid-cols-2 h-[400px] md:grid-cols-4 md:grid-rows-2 gap-3">
+          {images.map((item, idx) => (
+            <div
+              key={idx}
+              className={`relative overflow-hidden ${item.colSpan || ""} ${
+                item.rowSpan || ""
+              }`}
+            >
+              <img
+                src={item.src}
+                alt={item.title}
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 flex items-center justify-center bg-black/20">
+                <h2
+                  className={`text-white text-center ${
+                    item.textSize || "text-xl"
+                  } font-light tracking-widest`}
+                  style={{ fontFamily: "cursive" }}
+                >
+                  {item.title}
+                </h2>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

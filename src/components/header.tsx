@@ -8,11 +8,11 @@ type NavItem = {
 };
 
 const navigation: NavItem[] = [
-  { name: "Inicio", href: "#", current: true },
-  { name: "Sobre mi", href: "#", current: false },
-  { name: "Resume", href: "#", current: false },
-  { name: "Blog", href: "#", current: false },
-  { name: "Contacto", href: "#", current: false },
+  { name: "Inicio", href: "#home", current: true },
+  { name: "Sobre mi", href: "#about", current: false },
+  { name: "Resume", href: "#resume", current: false },
+  { name: "Blog", href: "#blog", current: false },
+  { name: "Contacto", href: "#contact", current: false },
 ];
 
 function classNames(
@@ -28,7 +28,7 @@ export default function Header() {
 
   return (
     <div className="min-h-full">
-      <div className="bg-gray-800">
+      <div className="bg-gray-800 w-full fixed top-0 inset-x-0 z-50">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
             {/* logo + menú desktop */}
@@ -88,6 +88,7 @@ export default function Header() {
                 <a
                   key={item.name}
                   href={item.href}
+                  onClick={() => setMobileOpen(false)}
                   aria-current={item.current ? "page" : undefined}
                   className={classNames(
                     item.current
