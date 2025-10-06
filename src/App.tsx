@@ -20,7 +20,6 @@ function App() {
           description="Soy diseñador web, con enfoque en programacion con un fuerte enfoque en JS. Creo obras que atraen, inspiran e impulsan la acción."
           info={[
             { label: "Cumpleaños", value: "Julio 11, 1990" },
-            { label: "Teléfono", value: "+34 604-80-89-28" },
             { label: "Correo", value: "ehylinolezjua@gmail.com" },
             { label: "Desde", value: "Venezuela" },
             { label: "Lenguaje", value: "Expañol, Inglés" },

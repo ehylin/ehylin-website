@@ -20,7 +20,7 @@ export default function BlogList({
   accentColor = "#c4a885",
 }: BlogListProps) {
   return (
-    <section id="blog" className="mx-auto max-w-4xl  py-12">
+    <section id="blog" className="mx-auto max-w-4xl  py-12 px-4 lg:px-0">
       <SectionHeader title="Artículos" accentColor={accentColor} align="left" />
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

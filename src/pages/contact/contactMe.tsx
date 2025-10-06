@@ -27,7 +27,7 @@ export default function ContactSection({
       className="w-full"
       style={{ backgroundColor: bgColor, color: textColor }}
     >
-      <div className="mx-auto max-w-4xl  py-12">
+      <div className="mx-auto max-w-4xl  py-12 px-4 lg:px-0">
         <h2 className="text-3xl font-semibold tracking-tight">{title}</h2>
         {subtitle && (
           <p className="mt-3 max-w-xl text-base/7 opacity-90">{subtitle}</p>
